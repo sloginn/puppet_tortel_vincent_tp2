@@ -3,7 +3,9 @@
   - yaml
 
 :hierarchy:
-  - "osfamily/%{::osfamily}"
+  - fqdn/%{fqdn}
+  - virtual/%{virtual}
+  - osfamily/%{::osfamily}
   - common
 
 :yaml:
