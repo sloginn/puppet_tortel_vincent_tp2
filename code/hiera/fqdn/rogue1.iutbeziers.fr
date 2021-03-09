@@ -1,4 +1,0 @@
-classes :
- - ssh
-
-ssh::PermitRoot : "yes"

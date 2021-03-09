@@ -1,4 +1,4 @@
-class ssh  {
+class ssh ($permitroot="no") {
     package { 'openssh-server':
        ensure => installed,
     }
