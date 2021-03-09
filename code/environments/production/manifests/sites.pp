@@ -1,4 +1,4 @@
 node 'rogue1' {
- notify { 'HelloWorld!': }
- include sudo
+	notify { 'HelloWorld!': }
+	include ssh
 }
